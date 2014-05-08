@@ -16,7 +16,7 @@ var Presenter = {
 	getResponse: function( callback ){
 		var cb = callback;
 		$.ajax({
-			url: '/slides',
+			url: './slides',
 			type: 'GET',
 			success: function( data ){
 				if( typeof cb === "function" )
