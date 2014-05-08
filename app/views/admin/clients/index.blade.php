@@ -2,6 +2,9 @@
 
 @section('page_title', 'Client List')
 @section('content')
+	<div class="col-md-12">
+		<a href="{{ URL::route('admin.client.create') }}" class="btn btn-primary pull-right">Create New Client</a>
+	</div>
 
 	<div class="table-responsive">
 		<table class="table table-striped">
