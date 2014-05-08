@@ -40,7 +40,7 @@ class AdminClientsController extends \BaseController {
 		$input = Input::only('name');
 
 		try {
-			$client         = new CLient;
+			$client         = new Client;
 			$client->name   = $input['name'];
 			$client->active = 0;
 			$client->save();
