@@ -1,0 +1,15 @@
+body {
+	background-color: #fff;
+}
+
+.defaultContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35px;
+  margin-left: -150px;
+}
+
+.defaultContainer img {
+	width: 300px;
+}
