@@ -62,7 +62,7 @@ var Presenter = {
 
 		// Inject the new slides into our container
 		$(images).each(function(index, item){
-			newContainer.append('<section data-background="' + item.filepath + '">&nbsp;</section>');
+			newContainer.append('<section data-background="./' + item.filepath + '">&nbsp;</section>');
 		});
 
 		// Fade out the old slides
