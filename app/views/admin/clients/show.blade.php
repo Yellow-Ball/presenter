@@ -2,7 +2,6 @@
 
 @section('page_title', $client->name)
 
-@section('')
 
 @section('content')
 
