@@ -105,7 +105,7 @@ class AdminClientsController extends \BaseController {
 			return Redirect::back()->withInput();
 		}
 
-		$client->fill( Input::only( [ 'name', 'slug'] ) );
+		$client->name = Input::get('name');
 		$client->save();
 
 		Session::flash('message', 'Client Created! Upload slides below!');
