@@ -37,7 +37,7 @@
 			                    <h4>Options</h4>
 			                    <p><a href="{{ URL::route('admin.client.image.delete', ['slug' => $client->slug, 'image' => $image->id ])}}" class="label label-danger"  rel="tooltip" title="Delete">Delete</a>
 			                </div>
-			  				<img src="{{ $image->filepath }}">
+			  				<img src="{{ asset($image->filepath) }}">
 			    		</div>
 					</div>
 		    	@if( $i % 4 == 3 )
