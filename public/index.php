@@ -5,7 +5,6 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
-phpinfo();
 exit;
 /*
 |--------------------------------------------------------------------------
